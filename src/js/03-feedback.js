@@ -14,7 +14,6 @@ formElement.addEventListener('input', throttle(onTextValueInput, 500));
 // valueTextAreaInput();
 
 function onFormSubmit(evt) {
-  git;
   evt.preventDefault();
   evt.currentTarget.reset();
   localStorage.removeItem('feedback-form-state');
